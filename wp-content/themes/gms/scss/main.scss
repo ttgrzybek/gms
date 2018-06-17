@@ -1,5 +1,8 @@
-@import "frontpage";
+@import "variables";
+@import "front-page";
 @import "header";
+@import "footer";
+
 .container {
   max-width: 1400px;
   padding: 0;
@@ -10,4 +13,11 @@
   padding: 0px;
   box-sizing: border-box;
   font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body #wpadminbar{top: -50px;}
+
+a:hover {
+  color: $font-color;
 }

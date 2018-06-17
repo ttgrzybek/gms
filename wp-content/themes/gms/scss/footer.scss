@@ -1,0 +1,147 @@
+footer{
+  position: fixed;
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: $palette1;
+  overflow: hidden;
+  color: $palette2;
+}
+
+footer nav {
+  background-color: $palette1;
+}
+
+div.footer-info {
+  float: right;
+  height: 40px;
+  line-height: 40px;
+}
+
+div.footer {
+  padding: 10px 20px;
+}
+
+footer div.container {
+  display: block;
+}
+
+footer div.container.footer {
+  padding: 10px 0px;
+}
+
+footer div {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+footer i {
+  font-size: 30px;
+  color: $palette2;
+}
+
+footer a i{
+  font-size: 40px;
+}
+
+nav .footer {
+  margin: 0;
+  padding: 0;
+}
+
+footer p {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+footer img.logo {
+  padding-left: 20px;
+}
+
+
+@media all and (max-width : 1150px) {
+  footer p {
+    font-size: 18px;
+  }
+
+  footer i {
+    font-size: 24px;
+  }
+
+  footer a i{
+    font-size: 36px;
+  }
+
+  .float-left {
+    float: left;
+  }
+
+
+}
+
+
+@media all and (max-width : 1090px) {
+
+}
+
+@media all and (max-width : 768px) {
+
+  .toHide {
+    display: none;
+  }
+
+  .toShow {
+    display: inline-block;
+  }
+
+  footer p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  footer i {
+    font-size: 20px;
+  }
+
+  footer a i{
+    font-size: 30px;
+  }
+
+}
+
+@media all and (max-width : 530px) {
+  .float-left {
+    display: none;
+  }
+}
+
+@media all and (max-width : 420px) {
+
+  footer a {
+    padding: 0 4px;
+  }
+}
+
+@media all and (max-width : 400px) {
+
+  footer a {
+    padding: 0;
+  }
+
+  footer p {
+    padding: 0 2px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+
+  footer a i{
+    font-size: 28px;
+  }
+}

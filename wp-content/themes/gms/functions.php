@@ -16,6 +16,11 @@ function coderslab_enqueue_script() {
     //Add bootstrap styles
     wp_enqueue_style('bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
 
+    //Add font
+
+    wp_enqueue_style('fontawesome', 'https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+    wp_enqueue_style('open-sans', 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&amp;subset=latin-ext');
+
     wp_enqueue_script('js', get_stylesheet_directory_uri() . '/js/app.js', ['jquery'], null, true);
 
     wp_enqueue_style('main', get_stylesheet_directory_uri() . '/css/main.css', null, '1.0.0', 'all');
@@ -25,6 +30,8 @@ function coderslab_enqueue_script() {
         get_stylesheet_directory_uri() . '/main.css',
         ['bootstrap'],
         true );
+
+
 
 }
 add_action( 'wp_enqueue_scripts' , 'coderslab_enqueue_script' );
