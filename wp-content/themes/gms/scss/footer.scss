@@ -8,6 +8,7 @@ footer{
   background-color: $palette1;
   overflow: hidden;
   color: $palette2;
+  z-index: 10;
 }
 
 footer nav {

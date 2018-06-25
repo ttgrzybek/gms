@@ -1,0 +1,102 @@
+@mixin flex () {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  font-size: 42px;
+  font-weight: 700;
+  color: mintcream;
+}
+
+section.navigation-tiles {
+  width: 80%;
+  @include flex();
+  a {
+    text-decoration: none;
+    color: $palette2;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.row, .row--sub {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  .left {
+    margin-left: 20%;
+    width: 80%;
+  }
+}
+
+.row--sub {
+  flex-grow: 1;
+}
+
+
+.col {
+  background: $palette3rgba;
+  height: 200px;
+  flex-grow: 1;
+  margin: 5px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col.slider--text {
+  background: $palette3rgba;
+  height: 630px;
+  width: 100%;
+  flex-grow: 1;
+  margin: 5px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.red {
+  background: $palette1rgba;
+}
+
+.col:hover {
+  background: lighten($palette3rgba, 10);
+  transform: scale(1.01);
+  transition: all 0.5s;
+}
+
+.red:hover {
+  background: lighten($palette1rgba, 10);
+}
+
+.col--big {
+  flex-grow: 1;
+  margin: 5px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+
+  .row {
+    flex-direction: column;
+  }
+
+  .row .row--sub {
+    flex-direction: row-reverse;
+  }
+
+  .crazy-layout > .row:last-child {
+    .col:nth-child(2) {
+      order: 2;
+    }
+  }
+
+}
+

@@ -4,6 +4,7 @@ add_theme_support('menus');
 add_theme_support('post-thumbnails');
 
 function coderslab_enqueue_script() {
+    wp_enqueue_script('js', get_stylesheet_directory_uri() . '/js/app.js', ['jquery'], null, true);
     //slick
     wp_enqueue_style('slick', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css');
 
@@ -21,7 +22,7 @@ function coderslab_enqueue_script() {
     wp_enqueue_style('fontawesome', 'https://use.fontawesome.com/releases/v5.0.13/css/all.css');
     wp_enqueue_style('open-sans', 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&amp;subset=latin-ext');
 
-    wp_enqueue_script('js', get_stylesheet_directory_uri() . '/js/app.js', ['jquery'], null, true);
+
 
     wp_enqueue_style('main', get_stylesheet_directory_uri() . '/css/main.css', null, '1.0.0', 'all');
 
