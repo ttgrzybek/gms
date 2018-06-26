@@ -29,7 +29,7 @@
     </div>
 </div>
 </div>
-<div class="container">
+<div class="container container--slider">
         <?php
         $q = new WP_Query([
 
@@ -41,7 +41,10 @@
         <div class="slider2">
             <?php if ($q->have_posts()) : while ($q->have_posts()) : $q->the_post(); ?>
                 <!-- post -->
-                    <?php the_post_thumbnail('full', ['class' => 'img-fluid']); ?>
+            <div class="img--container"><div>
+                    <?php the_post_thumbnail('medium', ['class' => 'img-fluid']); ?>
+                </div>
+            </div>
                 <?php wp_reset_postdata(); ?> <!-- to się zabezpiecza przed spierdoleniem, trzeba przy wszystkich własnych pętlach to robić na koniec
 
 

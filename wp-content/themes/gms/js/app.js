@@ -9,8 +9,10 @@ jQuery(function($) {
 
     $('.slider2').slick({
         autoplay:true,
-        autoplaySpeed:5000,
-        slidesPerRow:6
+        autoplaySpeed:500,
+        slidesToShow:6,
+        slidesToScroll:1,
+        speed:600,
     });
 
 });
