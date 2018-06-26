@@ -27,12 +27,29 @@
             </section>
         </div>
     </div>
-
-
 </div>
-
-
 </div>
+<div class="container">
+        <?php
+        $q = new WP_Query([
 
+            'post_type' => 'client',
+            'posts_per_page' => '36',
+        ]);
+        ?>
+
+        <div class="slider2">
+            <?php if ($q->have_posts()) : while ($q->have_posts()) : $q->the_post(); ?>
+                <!-- post -->
+                    <?php the_post_thumbnail('full', ['class' => 'img-fluid']); ?>
+                <?php wp_reset_postdata(); ?> <!-- to się zabezpiecza przed spierdoleniem, trzeba przy wszystkich własnych pętlach to robić na koniec
+
+
+            <?php endwhile; ?>
+                <!-- post navigation -->
+            <?php else: ?>
+                <!-- no posts found -->
+            <?php endif; ?>
+        </div>
 </div>
 <?php get_footer(); ?>

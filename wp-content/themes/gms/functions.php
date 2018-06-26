@@ -1,5 +1,7 @@
 <?php
 
+require	'post-types/client.php';
+require	'taxonomies/branch.php';
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
 
