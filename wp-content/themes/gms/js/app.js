@@ -12,7 +12,14 @@ jQuery(function($) {
         autoplaySpeed:500,
         slidesToShow:6,
         slidesToScroll:1,
-        speed:600,
+        speed:600
+    });
+
+    $('.slider3').slick({
+        //autoplay:true,
+        //autoplaySpeed:5000,
+        slidesToScroll:1,
+        slidesToShow:1
     });
 
 });

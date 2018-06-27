@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="hero">
-<div class="container">
+<div class="container first--content">
     <div class="row">
         <div class="col--big">
             <div class="row left slider1">
@@ -34,7 +34,7 @@
         $q = new WP_Query([
 
             'post_type' => 'client',
-            'posts_per_page' => '36',
+            'posts_per_page' => '100',
         ]);
         ?>
 

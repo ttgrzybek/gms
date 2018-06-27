@@ -3,11 +3,16 @@
 @import "header";
 @import "footer";
 @import "tiles";
-@import "slider";
+@import "front-page-sliders";
+@import "about-slider";
 
 .container {
   max-width: 1400px;
-  padding: 0;
+  padding-top: 0;
+}
+
+.first--content {
+  padding-top: 60px;
 }
 
 * {
@@ -18,7 +23,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-body #wpadminbar{top: -50px;}
+//body #wpadminbar{top: -50px;}
 
 a:hover {
   color: $font-color;
