@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container container--about">
+<div class="container container--about first--content">
 
         <?php
 

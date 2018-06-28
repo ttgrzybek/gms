@@ -3,7 +3,7 @@
 <div class="hero">
 <div class="container first--content">
     <div class="row">
-        <div class="col--big">
+        <div class="col--big toHide">
             <div class="row left slider1">
                 <div class="col slider--text">Rozwiązania</div>
                 <div class="col slider--text">Rozwiązania</div>

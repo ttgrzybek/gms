@@ -4,15 +4,16 @@ jQuery(function($) {
     $('.slider1').slick({
         dots:true,
         autoplay:true,
-        autoplaySpeed:5000
+        autoplaySpeed:5000,
+        speed:2500
     });
 
     $('.slider2').slick({
         autoplay:true,
-        autoplaySpeed:500,
+        autoplaySpeed:2500,
         slidesToShow:6,
         slidesToScroll:1,
-        speed:600
+        speed:2500
     });
 
     $('.slider3').slick({

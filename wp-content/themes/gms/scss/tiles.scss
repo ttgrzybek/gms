@@ -47,7 +47,7 @@ section.navigation-tiles {
 
 .col.slider--text {
   background: $palette3rgba;
-  height: 630px;
+  height: 620px;
   width: 100%;
   flex-grow: 1;
   margin: 5px;
@@ -82,9 +82,25 @@ section.navigation-tiles {
   width: 30%;
 }
 
+@media all and (max-width : 900px) {
+
+  section.navigation-tiles a {
+    font-size: 1rem;
+  }
+
+}
+
 @media (max-width: 768px) {
 
-  .row {
+.row {
+  margin: 0;
+}
+
+  a.col {
+    height: 150px;
+  }
+
+/*  .row {
     flex-direction: column;
   }
 
@@ -97,6 +113,22 @@ section.navigation-tiles {
       order: 2;
     }
   }
+*/
+}
+
+@media all and (max-width : 450px) {
+
+  section.navigation-tiles a {
+    font-size: 0.75rem;
+  }
 
 }
 
+@media all and (min-height : 1000px) {
+
+  a.col {
+    height: 200px;
+  }
+
+
+}

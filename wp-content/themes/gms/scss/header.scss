@@ -1,10 +1,21 @@
 header {
   position: fixed;
   top: 0;
+  left: 0;
+  //right: 0;
   width: 100%;
-  display: block;
+  height: 60px;
+  display: inline-block;
   background: $palette2;
   z-index: 10;
+  .container {
+    padding: 0px;
+  }
+}
+
+label.toggle {
+  padding: 0;
+  padding-right: 10px;
 }
 
 nav {
@@ -50,11 +61,12 @@ nav ul li {
 ul.menu {
   min-height: 60px;
   padding-top: 12px;
+  padding-right: 25px;
 }
 
 nav a {
   display: block;
-  padding: 0 20px;
+  padding: 0 15px;
   color: $font-color;
   font-size: 20px;
   line-height: 42px;
@@ -101,6 +113,11 @@ li > a:after { content: ' +'; }
 li > a:only-child:after { content: ''; }
 
 @media all and (max-width : 1160px) {
+
+  ul.menu {
+    padding-right: 15px;
+  }
+
   #logo {
 
     img {
@@ -151,7 +168,11 @@ li > a:only-child:after { content: ''; }
 @media all and (max-width : 768px) {
 
   .toHide {
-    display: none;
+    display: none !important;
+  }
+
+  header {
+    position: fixed;
   }
 
   .toShow {
@@ -161,7 +182,11 @@ li > a:only-child:after { content: ''; }
   ul.menu {
     width: 100%;
     min-width: 320px;
+  li {
+    border-top: rgba(255, 255, 255, 0.1) 1px solid;
   }
+  }
+
 
   nav.header a:hover { background-color: $palette1; }
 
@@ -247,7 +272,7 @@ li > a:only-child:after { content: ''; }
   nav ul li ul li .toggle,
   nav ul ul a { background-color: $palette1; }
 
-  ul {
+  header ul {
     background-color: $palette1;
   }
 
