@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="background--image"></div>
 <div class="container container--about first--content">
 
         <?php
@@ -12,8 +12,8 @@
 
         ]);
         ?>
-<div class="row">
-    <div class="col--big">
+<div class="row last--content">
+    <div class="col red col--big">
         <div class="slider3">
             <?php if ($q2->have_posts() ) : while ( $q2->have_posts() ) :    $q2->the_post(); ?>
                 <div class="slider3--text">
@@ -27,9 +27,7 @@
             <?php endif; ?>
         </div>
     </div>
-    <div class="col--big toHide">
-        <img src="/gms/wp-content/themes/gms/images/leadership-1.jpg" alt="chess" class="chess toHide">
-    </div>
+
     </div>
 
 </div>

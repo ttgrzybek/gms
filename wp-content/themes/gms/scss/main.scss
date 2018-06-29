@@ -12,7 +12,11 @@
 }
 
 .first--content {
-  padding-top: 60px;
+  padding-top: 90px;
+}
+
+.last--content {
+  padding-bottom: 90px;
 }
 
 * body {
@@ -21,6 +25,7 @@
   box-sizing: border-box;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
+  min-height: 730px;
 }
 
 //body #wpadminbar{top: -50px;}
@@ -29,9 +34,26 @@ a:hover {
   color: $font-color;
 }
 
+ul li {
+  list-style: none;
+}
+
+div.background--image {
+  background-image: url("/gms/wp-content/themes/gms/images/pop.jpg");
+  background-position: 50% 0%;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 60px;
+  left: 0;
+  z-index: -1;
+}
+
 @media all and (max-width : 768px) {
 
   footer, header {
     width: 100vw;
   }
 }
+
+
