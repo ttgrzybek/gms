@@ -4,7 +4,7 @@
   order: 1;
   font-size: 42px;
   font-weight: 700;
-  color: mintcream;
+  color: $palette3;
 }
 
 section.navigation-tiles {
@@ -16,6 +16,10 @@ section.navigation-tiles {
     font-size: 1.5rem;
     font-weight: 700;
     text-transform: uppercase;
+    background-color: $palette3rgba;
+  }
+  .red {
+    background-color: $palette1rgba;
   }
 }
 
@@ -36,7 +40,7 @@ section.navigation-tiles {
 
 
 .col {
-  background: $palette3rgba;
+  background: $palette2rgba;
   min-height: 200px;
   //height: auto;
   flex-grow: 1;
@@ -45,7 +49,7 @@ section.navigation-tiles {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: $palette2;
+  color: black;
   font-size: 1.2rem;
 }
 
@@ -107,9 +111,13 @@ div.col--workshop {
 }
 
 .coaching {
-  padding: 10px 0;
+  padding: 20px 0;
   padding-right: 25px;
+  line-height: 2rem;
+}
 
+h3.coaching {
+  min-width: 200px;
 }
 
 @media all and (max-width : 900px) {

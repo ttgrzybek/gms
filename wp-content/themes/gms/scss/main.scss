@@ -28,7 +28,7 @@
   min-height: 730px;
 }
 
-//body #wpadminbar{top: -50px;}
+body #wpadminbar{top: -50px}
 
 a {
   color: $font-color;
@@ -44,7 +44,7 @@ ul li {
 
 div.background--image {
   background-image: url("/gms/wp-content/themes/gms/images/pop.jpg");
-  background-position: 50% 0%;
+  background-position: 50% 10%;
   position: fixed;
   width: 100vw;
   height: 100vh;

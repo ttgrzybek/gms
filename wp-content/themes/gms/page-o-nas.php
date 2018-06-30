@@ -8,12 +8,13 @@
 
             'post_type' => 'post',
             'posts_per_page' => '6',
-            'category_name' => 'o-nas'
+            'category_name' => 'o-nas',
+            'order' => 'ASC'
 
         ]);
         ?>
 <div class="row last--content">
-    <div class="col red col--big">
+    <div class="col col--big">
         <div class="slider3">
             <?php if ($q2->have_posts() ) : while ( $q2->have_posts() ) :    $q2->the_post(); ?>
                 <div class="slider3--text">

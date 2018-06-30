@@ -45,7 +45,7 @@
                                 <li><a href="<?php echo site_url( '/?p=74/' ); ?>"class="short">Szkolenia</a></li>
                                 <li><a href="<?php echo site_url( '/?p=78/' ); ?>"class="short">Gry biznesowe</a></li>
                                 <li><a href="<?php echo site_url( '/?p=92/' ); ?>"class="short">Coaching</a></li>
-                                <li><a href="#"class="short">Badania</a></li>
+                                <li><a href="<?php echo site_url( '/?p=94/' ); ?>"class="short">Badania</a></li>
                             </ul>
                         </li>
                         <li>

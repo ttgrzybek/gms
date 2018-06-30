@@ -20,10 +20,10 @@
                 </div>
                 <div class="row">
                     <a href="<?php echo site_url( '/?p=78/' ); ?>" class="col animated red">Gry biznesowe</a>
-                    <a href=<?php echo site_url( '/?p=92/' ); ?>" class="col animated">Coaching</a>
+                    <a href="<?php echo site_url( '/?p=92/' ); ?>" class="col animated">Coaching</a>
                 </div>
                 <div class="row">
-                    <a href="" class="col animated">Badania</a>
+                    <a href="<?php echo site_url( '/?p=94/' ); ?>" class="col animated">Badania</a>
                     <a href="<?php echo site_url( '/?p=44/' ); ?>" class="col animated red">Książki</a>
                 </div>
             </section>
