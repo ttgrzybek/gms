@@ -42,9 +42,9 @@
                                     </ul>
                                 </li>
                                 <li><a href="#"class="short toShow">Rozwiązania</a></li>
-                                <li><a href="#"class="short">Szkolenia</a></li>
-                                <li><a href="#"class="short">Gry biznesowe</a></li>
-                                <li><a href="#"class="short">Coaching</a></li>
+                                <li><a href="<?php echo site_url( '/?p=74/' ); ?>"class="short">Szkolenia</a></li>
+                                <li><a href="<?php echo site_url( '/?p=78/' ); ?>"class="short">Gry biznesowe</a></li>
+                                <li><a href="<?php echo site_url( '/?p=92/' ); ?>"class="short">Coaching</a></li>
                                 <li><a href="#"class="short">Badania</a></li>
                             </ul>
                         </li>
@@ -59,7 +59,7 @@
                             </ul>
                         </li>
 
-                        <li><a href="#">Książki</a></li>
+                        <li><a href="<?php echo site_url( '/?p=44/' ); ?>">Książki</a></li>
                         <li><a href="<?php echo site_url( '/?p=9/' ); ?>">Zaufali nam</a></li>
                     </ul>
                 </nav>

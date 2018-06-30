@@ -17,10 +17,11 @@ jQuery(function($) {
     });
 
     $('.slider3').slick({
+        dots:true,
         //autoplay:true,
         //autoplaySpeed:5000,
         slidesToScroll:1,
-        slidesToShow:1
+        slidesToShow:1,
     });
 
 });

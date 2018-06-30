@@ -22,7 +22,8 @@ section.navigation-tiles {
 .row, .row--sub {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: stretch;
+  margin: 0px; //Może spowodować utrudnienia
   .left {
     margin-left: 20%;
     width: 80%;
@@ -37,6 +38,7 @@ section.navigation-tiles {
 .col {
   background: $palette3rgba;
   min-height: 200px;
+  //height: auto;
   flex-grow: 1;
   margin: 5px;
   border-radius: 20px;
@@ -49,7 +51,22 @@ section.navigation-tiles {
 
 .col--left--justify {
   justify-content: left;
+  height: auto;
 }
+div.col--left--justify {
+  min-height: auto;
+}
+.col--workshop {
+  align-items: stretch;
+  justify-content: center;
+  padding-top: 20px;
+  ul li {
+    list-style-type: circle;
+  }
+}
+div.col--workshop {
+}
+
 
 .col.slider--text {
   background: $palette3rgba;
@@ -68,13 +85,14 @@ section.navigation-tiles {
   background: $palette1rgba;
 }
 
-.col:hover {
+
+.animated.col:hover {
   background: lighten($palette3rgba, 10);
   transform: scale(1.01);
   transition: all 0.5s;
 }
 
-.red:hover {
+.animated.red:hover {
   background: lighten($palette1rgba, 10);
 }
 
@@ -86,6 +104,12 @@ section.navigation-tiles {
   justify-content: center;
   align-items: center;
   width: 30%;
+}
+
+.coaching {
+  padding: 10px 0;
+  padding-right: 25px;
+
 }
 
 @media all and (max-width : 900px) {
@@ -100,6 +124,12 @@ section.navigation-tiles {
 
   .col {
     width: 100%;
+    display: inline-block;
+    min-height: auto;
+  }
+
+  .hero .col {
+    display: flex;
   }
 
 .row {
@@ -129,6 +159,16 @@ section.navigation-tiles {
   }
 */
 }
+
+@media all and (max-width : 600px) {
+
+  section.navigation-tiles {
+    width: 90%;
+  }
+
+}
+
+
 
 @media all and (max-width : 450px) {
 

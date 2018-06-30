@@ -3,12 +3,12 @@
   padding-bottom: 60px;
   width: 80%;
   div.slick-track {
-    height: 50%;
+    min-height: 50%;
   }
   .slick-prev:before,
   .slick-next:before
   {
-    color: black;
+    color: $palette2;
   }
   .slick-prev
   {
@@ -16,21 +16,29 @@
   }
   .slick-dots
   {
-    bottom: 200px;
+    bottom: 50px;
+  }
+  .slick-dots li button:before
+  {
+
+    opacity: .85;
+    color: white;
+
+  }
+  .slick-dots li.slick-active button:before
+  {
+    opacity: .95;
+    color: black;
   }
 }
 
 .container--about div.slick-slide {
-  height: auto;
+  height: initial;
 }
 
 .container--about {
 }
 
-.chess {
-  height: auto;
-  width: 100%;
-}
 
 .slider3--text {
   text-align: justify;

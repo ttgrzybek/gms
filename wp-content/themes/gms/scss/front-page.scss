@@ -1,8 +1,8 @@
 div.hero {
   width: 100%;
   min-height: (800px);
-  background-image: url("/gms/wp-content/themes/gms/images/pop.jpg");
-  background-position: 50% 0%;
+  //background-image: url("/gms/wp-content/themes/gms/images/pop.jpg");
+  //background-position: 50% 0%;
   color: $palette2;
   font-size: 1.5rem;
   font-weight: 700;
@@ -40,7 +40,7 @@ div.hero {
 @media all and (min-height : 1000px) {
 
   div.hero {
-    min-height: 800px;
+    min-height: 80vh;
   }
 
 

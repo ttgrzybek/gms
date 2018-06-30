@@ -12,7 +12,7 @@
 }
 
 .first--content {
-  padding-top: 90px;
+  padding-top: 60px;
 }
 
 .last--content {
@@ -29,6 +29,10 @@
 }
 
 //body #wpadminbar{top: -50px;}
+
+a {
+  color: $font-color;
+}
 
 a:hover {
   color: $font-color;
@@ -49,11 +53,29 @@ div.background--image {
   z-index: -1;
 }
 
+h1, h2, h3 {
+  text-transform: uppercase;
+  text-align: left;
+}
+
+div.inline--block {
+  display: inline-block;
+  float: left;
+  margin: 0px 30px 10px 0px;
+  border: $palette3rgba 10px solid;
+  border-radius: 5px;
+}
+
 @media all and (max-width : 768px) {
 
   footer, header {
     width: 100vw;
   }
+
+  .first--content {
+    padding-top: 30px;
+  }
+
 }
 
 

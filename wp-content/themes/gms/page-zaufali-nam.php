@@ -2,7 +2,7 @@
 
 <div class="background--image"></div>
 
-    <div class="container container--slider first--content">
+    <div class="container first--content">
         <div class="row row--one--column">
             <div class="col col--left--justify">
                 <?php
@@ -26,6 +26,8 @@
                     <?php if ($q3->have_posts()) : while ($q3->have_posts()) : $q3->the_post(); ?>
                         <!-- post -->
                         <div class=""><div>
+                                <?php the_title('<li>', '</li>'); ?>
+                                <?php the_title('<li>', '</li>'); ?>
                                 <?php the_title('<li>', '</li>'); ?>
                             </div>
                         </div>

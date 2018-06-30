@@ -220,6 +220,9 @@
 .container--slider {
   height: 100px;
   margin-bottom: 60px;
+  background: $palette2;
+  //border-radius: 10px;
+  width: 100vw;
 }
 
 .slick-track {
