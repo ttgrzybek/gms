@@ -80,7 +80,15 @@ nav.header a:hover { background-color: $palette2; }
 nav ul ul {
   display: none;
   position: absolute;
-  top: 42px;
+  top: 50px;
+}
+
+nav ul ul li:last-child {
+  border-radius: 0 0 6px 6px;
+}
+
+nav ul ul li:last-child a:hover {
+  border-radius: 0 0 6px 6px;
 }
 
 nav a.short {
@@ -99,7 +107,7 @@ nav ul ul li {
 
 nav ul ul ul li {
   position: relative;
-  top: -42px;
+  top: -50px;
   width: 250px;
   left: 160px;
 }
@@ -157,7 +165,7 @@ li > a:only-child:after { content: ''; }
   }
 
   nav ul ul ul li {
-    top: -42px;
+    top: -50px;
     left: 140px;
     width: 140px;
   }
@@ -223,7 +231,7 @@ li > a:only-child:after { content: ''; }
     background-color: $palette1;
     padding: 0 20px;
     color: $palette2;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 40px;
     text-decoration: none;
     border: none;
@@ -236,6 +244,7 @@ li > a:only-child:after { content: ''; }
 
   label.toggle {
     margin: 0px;
+    padding: 0 8px;
   }
 
   .toggle-menu {

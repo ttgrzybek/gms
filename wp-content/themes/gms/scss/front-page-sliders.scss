@@ -85,7 +85,11 @@
 }
 [dir='rtl'] .slick-prev:before
 {
+  //font-family: 'FontAwesome';
   content: '>>';
+  font-weight: 700;
+  //font-size: 20px;
+  display: inline-block;
 }
 
 .slick-next
@@ -99,7 +103,11 @@
 }
 .slick-next:before
 {
+  //font-family: 'FontAwesome';
   content: '>>';
+  font-weight: 700;
+  //font-size: 20px;
+  display: inline-block;
 }
 [dir='rtl'] .slick-next:before
 {

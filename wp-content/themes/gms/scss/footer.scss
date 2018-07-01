@@ -21,6 +21,10 @@ div.footer-info {
   height: 40px;
   line-height: 40px;
   padding-right: 25px;
+  div a {
+    position: relative;
+    bottom: 4px;
+  }
 }
 
 div.footer {
@@ -142,6 +146,10 @@ footer img.logo {
 
 @media all and (max-width : 400px) {
 
+  div.footer-info {
+    padding-right: 10px;
+  }
+
   footer a {
     padding: 0;
   }
@@ -159,6 +167,10 @@ footer img.logo {
 }
 
 @media all and (max-width : 320px) {
+
+  div.footer-info {
+    padding-right: 0px;
+  }
 
   footer a {
     padding: 0;

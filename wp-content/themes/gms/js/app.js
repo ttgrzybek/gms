@@ -3,9 +3,11 @@ jQuery(function($) {
 
     $('.slider1').slick({
         dots:true,
-        autoplay:true,
+        //autoplay:true,
         autoplaySpeed:5000,
-        speed:2500
+        speed:2500,
+        //nextArrow: '<i class="far fa-caret-circle-right"></i>',
+        //prevArrow: '<i class="far fa-caret-circle-left"></i>'
     });
 
     $('.slider2').slick({
