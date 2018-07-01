@@ -23,7 +23,7 @@ div.footer-info {
   padding-right: 25px;
   div a {
     position: relative;
-    bottom: 4px;
+    bottom: 0px;
   }
 }
 
@@ -103,6 +103,11 @@ footer img.logo {
 }
 
 @media all and (max-width : 768px) {
+
+  div a {
+    position: relative;
+    top: -3px;
+  }
 
   footer {
     position: fixed;

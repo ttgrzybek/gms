@@ -78,4 +78,12 @@ div.inline--block {
 
 }
 
+@media all and (max-width : 600px) {
+
+  div.inline--block {
+    float: none;
+  }
+
+}
+
 

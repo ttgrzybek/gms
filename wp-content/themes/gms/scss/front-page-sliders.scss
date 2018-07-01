@@ -81,14 +81,16 @@
 }
 .slick-prev:before
 {
-  content: '<<';
+  font-family: 'Font Awesome\ 5 Free';
+  content: '\f100';
+  font-weight: 700;
+  display: inline-block;
 }
 [dir='rtl'] .slick-prev:before
 {
-  //font-family: 'FontAwesome';
-  content: '>>';
+  font-family: 'Font Awesome\ 5 Free';
+  content: '\f101';
   font-weight: 700;
-  //font-size: 20px;
   display: inline-block;
 }
 
@@ -103,15 +105,17 @@
 }
 .slick-next:before
 {
-  //font-family: 'FontAwesome';
-  content: '>>';
+  font-family: 'Font Awesome\ 5 Free';
+  content: '\f101';
   font-weight: 700;
-  //font-size: 20px;
   display: inline-block;
 }
 [dir='rtl'] .slick-next:before
 {
-  content: '<<';
+  font-family: 'Font Awesome\ 5 Free';
+  content: '\f100';
+  font-weight: 700;
+  display: inline-block;
 }
 
 /* Dots */
