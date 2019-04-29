@@ -3,7 +3,7 @@
 <div class="background--image"></div>
 
 <div class="hero">
-<div class="container first--content">
+<div class="container first--content--fp">
     <div class="row">
         <div class="col--big toHide">
             <div class="row left slider1">
@@ -37,7 +37,7 @@
         $q = new WP_Query([
 
             'post_type' => 'client',
-            'posts_per_page' => '100',
+            'posts_per_page' => '50',
         ]);
         ?>
 

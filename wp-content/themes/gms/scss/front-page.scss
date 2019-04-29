@@ -12,6 +12,7 @@ div.hero {
     font-size: 1.5rem;
     font-weight: 700;
     text-transform: uppercase;
+
   }
   div.col {
     color: $palette2;
@@ -19,6 +20,16 @@ div.hero {
     font-weight: 700;
     text-transform: uppercase;
   }
+
+}
+
+.first--content--fp {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -40%);
+  transform: translate(-50%, -40%);
 }
 
 @media all and (max-width : 900px) {
@@ -37,12 +48,19 @@ div.hero {
 
 }
 
+@media all and (max-width : 600px) {
+
+  div.hero {
+    min-height: 500px;
+  }
+
+}
+
 @media all and (min-height : 1000px) and (max-width: 768px) {
 
   div.hero {
     min-height: 80vh;
   }
-
 
 }
 
@@ -51,6 +69,5 @@ div.hero {
   div.hero {
     min-height: 85.9vh;
   }
-
 
 }

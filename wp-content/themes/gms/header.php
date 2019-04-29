@@ -29,19 +29,10 @@
                             <a href="#">Oferta</a>
                             <input type="checkbox" id="drop-2"/>
                             <ul>
-                                <li class="toHide">
-
-                                    <!-- Second Tier Drop Down -->
-                                    <label for="drop-3" class="toggle">Rozwiązania +</label>
+                                <li>
                                     <a href="#"class="short">Rozwiązania</a>
-                                    <input type="checkbox" id="drop-3"/>
-                                    <ul>
-                                        <li><a href="#"class="short">Wdrażanie standardów</a></li>
-                                        <li><a href="#"class="short">Programy rozwoju liderów</a></li>
-                                        <li><a href="#"class="short">Akademie sprzedaży</a></li>
-                                    </ul>
                                 </li>
-                                <li><a href="#"class="short toShow">Rozwiązania</a></li>
+<!--                                <li><a href="#"class="short toShow">Rozwiązania</a></li>-->
                                 <li><a href="<?php echo site_url( '/?p=74/' ); ?>"class="short">Szkolenia</a></li>
                                 <li><a href="<?php echo site_url( '/?p=78/' ); ?>"class="short">Gry biznesowe</a></li>
                                 <li><a href="<?php echo site_url( '/?p=92/' ); ?>"class="short">Coaching</a></li>
@@ -50,13 +41,7 @@
                         </li>
                         <li>
                             <!-- First Tier Drop Down -->
-                            <label for="drop-1" class="toggle">Wiedza +</label>
                             <a href="#">Wiedza</a>
-                            <input type="checkbox" id="drop-1"/>
-                            <ul>
-                                <li><a href="#" class="short">Blog</a></li>
-                                <li><a href="#" class="short">Strefa wiedzy</a></li>
-                            </ul>
                         </li>
 
                         <li><a href="<?php echo site_url( '/?p=44/' ); ?>">Książki</a></li>

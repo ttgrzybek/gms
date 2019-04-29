@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
 <div class="background--image"></div>
-<div class="container">
+<div class="container first--content--op">
     <div class="row first--content row--one--column">
         <div class="col col--workshop">
             <ul>
-                <h3>Zarządzanie sprzedażą</h3>
+                <h3>Dla każdego</h3>
                 <li>Telefoniczne umawianie spotkań</li>
                 <li>Sprzedaż i obsługa przez telefon</li>
                 <li>Techniki sprzedaży - B2C</li>
@@ -19,7 +19,7 @@
         </div>
         <div class="col col--workshop">
             <ul>
-                <h3>Przywództwo i zarządzanie</h3>
+                <h3>Dla lidera</h3>
                 <li>Przywództwo w 5 krokach</li>
                 <li>Coaching dla menedżerów</li>
                 <li>Motywowanie i budowanie zaangażowania</li>
@@ -33,9 +33,9 @@
 
             </ul>
         </div>
-        <div class="col col--workshop">
+        <div class="col col--workshop last--content">
             <ul>
-                <h3>Efektywność indywidualna</h3>
+                <h3>Dla handlowca</h3>
                 <li>Komunikacja interpersonalna</li>
                 <li>Asertywność</li>
                 <li>Zarządzanie czasem 5.0</li>
@@ -51,30 +51,6 @@
                 <li>Życiowy kompas - poszukiwanie drogi</li>
             </ul>
         </div>
-
-    </div>
-    <div class="row last--content row--one--column">
-        <div class="col col--workshop">
-            <ul>
-                <h3>Zarządzanie generacjami</h3>
-                <li>Generacja Y w pracy</li>
-                <li>Zarządzanie organizacją wielopokoleniową</li>
-            </ul>
-        </div>
-        <div class="col col--workshop">
-            <ul>
-                <h3>Efektywność zespołowa</h3>
-                <li>Budowanie efektywnych zespołów</li>
-                <li>Warsztaty team-buildingowe</li>
-
-            </ul>
-        </div>
-        <div class="col col--workshop toHide">
-            <ul>
-
-            </ul>
-        </div>
-
 
     </div>
 </div>

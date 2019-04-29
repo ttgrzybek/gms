@@ -117,13 +117,18 @@ div.col--workshop {
 }
 
 h3.coaching {
-  min-width: 200px;
+  min-width: 250px;
+  font-size: 1.25rem;
 }
 
 @media all and (max-width : 900px) {
 
   section.navigation-tiles a {
     font-size: 1rem;
+  }
+
+  .col {
+    font-size: 1.0rem;
   }
 
 }
@@ -134,6 +139,7 @@ h3.coaching {
     width: 100%;
     display: inline-block;
     min-height: auto;
+    font-size: 0.8rem;
   }
 
   .hero .col {
@@ -174,6 +180,10 @@ h3.coaching {
     width: 90%;
   }
 
+  a.col {
+    min-height: 20vh;
+  }
+
 }
 
 
@@ -186,11 +196,21 @@ h3.coaching {
 
 }
 
-@media all and (min-height : 1000px) {
+@media all and (min-height : 1000px) and (max-width: 768px) {
 
   a.col {
-    min-height: 200px;
+    min-height: 20vh;
+  }
+
+}
+
+
+/*@media all and (min-height : 1000px) {
+
+  a.col {
+    min-height: 20vh;
   }
 
 
 }
+*/

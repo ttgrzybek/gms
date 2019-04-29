@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <div class="background--image"></div>
-    <div class="container container--about first--content">
+    <div class="container container--about first--content first--content--op">
         <?php
         $q2 = new WP_Query([
             'post_type' => 'post',
