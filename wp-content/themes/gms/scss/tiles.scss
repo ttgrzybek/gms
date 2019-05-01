@@ -53,6 +53,15 @@ section.navigation-tiles {
   font-size: 1.2rem;
 }
 
+.col100 {
+  width: 100%;
+  display: inline-block;
+}
+
+.col--texttop {
+  align-items: normal;
+}
+
 .col--left--justify {
   justify-content: left;
   height: auto;

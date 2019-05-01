@@ -60,6 +60,7 @@ div.background--image {
   top: 60px;
   left: 0;
   z-index: -1;
+  background-repeat: no-repeat;
 }
 
 h1, h2, h3 {
@@ -75,6 +76,14 @@ div.inline--block {
   margin: 0px 30px 10px 0px;
   border: $palette3rgba 10px solid;
   border-radius: 5px;
+}
+
+ul.text--columns {
+  width: 100%;
+  li {
+    width:33.333333%;
+    float:left;
+  }
 }
 
 @media all and (max-width : 768px) {
@@ -107,6 +116,10 @@ div.inline--block {
     font-size: 1.25rem;
   }
 
+}
+
+div.post {
+  min-height: 150px;
 }
 
 @media all and (max-width : 600px) {

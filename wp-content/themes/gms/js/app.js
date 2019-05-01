@@ -19,9 +19,18 @@ jQuery(function($) {
     });
 
     $('.slider3').slick({
-        dots:true,
         autoplay:true,
         autoplaySpeed:15000,
+        dots:true,
+      speed:2000,
+        slidesToScroll:1,
+        slidesToShow:1,
+    });
+
+    $('.slider4').slick({
+        autoplay:true,
+        autoplaySpeed:15000,
+        dots:true,
         speed:2000,
         slidesToScroll:1,
         slidesToShow:1,

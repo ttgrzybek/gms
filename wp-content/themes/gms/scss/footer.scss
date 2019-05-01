@@ -67,6 +67,27 @@ footer p {
   padding: 0 10px;
 }
 
+.phone {
+  border-style: none;
+  margin-top: 12px;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  margin-right: 16px;
+  vertical-align: initial;
+}
+
+.email {
+  border-style: none;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  margin-left: 4px;
+  margin-right: 0px;
+  vertical-align: initial;
+}
+
+
+
+
 footer img.logo {
   padding-left: 20px;
 }
@@ -103,6 +124,7 @@ footer img.logo {
 }
 
 @media all and (max-width : 768px) {
+
 
   div a {
     position: relative;

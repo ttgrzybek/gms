@@ -18,6 +18,9 @@
   {
     bottom: 50px;
   }
+
+
+
   .slick-dots li button:before
   {
 
@@ -63,6 +66,83 @@
 @media all and (max-width : 768px) {
 
   .slider3 {
+    width: 100%;
+  }
+
+  .container--about div.col--big {
+    width: 90%;
+  }
+
+}
+
+
+.slider4 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 80%;
+  div.slick-track {
+    min-height: 50%;
+  }
+  .slick-prev:before,
+  .slick-next:before
+  {
+    color: black;
+  }
+  .slick-prev
+  {
+    left: -30px;
+  }
+  .slick-dots
+  {
+    top: 40px;
+  }
+
+
+  .slick-dots li button:before
+  {
+
+    opacity: .85;
+    color: black;
+
+  }
+  .slick-dots li.slick-active button:before
+  {
+    opacity: .95;
+    color: $palette1;
+  }
+}
+
+.container--about div.slick-slide {
+  height: initial;
+}
+
+.container--about {
+}
+
+
+.slider4--text {
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 0 10px;
+  margin-bottom: 60px;
+}
+
+@media all and (max-width : 768px) {
+
+  .slider4 {
+    //padding-top: 40px;
+    width: 90%;
+  }
+
+  .container--about div.col--big {
+    width: 80%;
+  }
+}
+
+
+@media all and (max-width : 768px) {
+
+  .slider4 {
     width: 100%;
   }
 
