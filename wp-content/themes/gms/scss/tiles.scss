@@ -80,6 +80,17 @@ div.col--left--justify {
 div.col--workshop {
 }
 
+.col.slider--text--fp {
+  background: rgba(0, 0, 0, 0);
+  height: 620px;
+  width: 100%;
+  flex-grow: 1;
+  margin: 5px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .col.slider--text {
   background: $palette3rgba;

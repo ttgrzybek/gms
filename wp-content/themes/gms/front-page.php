@@ -7,15 +7,21 @@
     <div class="row">
         <div class="col--big toHide">
             <div class="row left slider1">
-                <div class="col slider--text">Rozwiązania</div>
-                <div class="col slider--text">Rozwiązania</div>
-                <div class="col slider--text">Rozwiązania</div>
+                <div class="col slider--text--fp">
+                    <a class="clicker" href="<?php echo site_url( '/?p=103/' ); ?>"></a>
+                </div>
+                <div class="col slider--text--fp">
+                    <a class="clicker" href="<?php echo site_url( '/?p=103/' ); ?>"></a>
+                </div>
+                <div class="col slider--text--fp">
+                    <a class="clicker" href="<?php echo site_url( '/?p=103/' ); ?>"></a>
+                </div>
             </div>
         </div>
         <div class="col--big">
             <section class="navigation-tiles">
                 <div class="row">
-                    <a href="" class="col animated">Rozwiązania</a>
+                    <a href="<?php echo site_url( '/?p=103/' ); ?>" class="col animated">Rozwiązania</a>
                     <a href="<?php echo site_url( '/?p=74/' ); ?>" class="col animated red">Szkolenia</a>
                 </div>
                 <div class="row">

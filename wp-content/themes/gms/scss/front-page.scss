@@ -23,6 +23,30 @@ div.hero {
 
 }
 
+
+a.clicker {
+  //background-image: url("/gms/wp-content/themes/gms/images/smol.jpg");
+  //background-position: 50% 0;
+  height: 100%;
+  width: 100%;
+}
+
+a.clicker::after {
+  content: "";
+  background: url("/gms/wp-content/themes/gms/images/smol.jpg");
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: absolute;
+  z-index: -1;
+}
+
 .first--content--fp {
   margin: 0;
   position: absolute;
