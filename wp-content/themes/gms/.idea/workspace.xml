@@ -14,18 +14,28 @@
       <file leaf-file-name="front-page.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/front-page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="984">
-              <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="480">
+              <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-ksiazki.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page-ksiazki.php">
+      <file leaf-file-name="page-wiedza.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-wiedza.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-rozwiazania.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-rozwiazania.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -34,8 +44,8 @@
       <file leaf-file-name="about-slider.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/about-slider.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-896">
-              <caret line="96" column="10" lean-forward="false" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
+            <state relative-caret-position="360">
+              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -44,8 +54,8 @@
       <file leaf-file-name="front-page-sliders.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/front-page-sliders.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6768">
-              <caret line="282" column="0" lean-forward="true" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+            <state relative-caret-position="87">
+              <caret line="129" column="5" lean-forward="false" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -54,8 +64,8 @@
       <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+            <state relative-caret-position="264">
+              <caret line="10" column="108" lean-forward="false" selection-start-line="10" selection-start-column="108" selection-end-line="10" selection-end-column="108" />
               <folding />
             </state>
           </provider>
@@ -64,18 +74,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="32" column="82" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="312">
+              <caret line="17" column="168" lean-forward="false" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="168" />
               <folding />
             </state>
           </provider>
@@ -84,18 +84,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tiles.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/tiles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+            <state relative-caret-position="288">
+              <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -104,8 +94,18 @@
       <file leaf-file-name="page-privacy-policy.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-privacy-policy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="432">
+              <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tiles.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/tiles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="142" column="4" lean-forward="true" selection-start-line="142" selection-start-column="4" selection-end-line="142" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -158,26 +158,26 @@
         <option value="$PROJECT_DIR$/scss/variables.scss" />
         <option value="$PROJECT_DIR$/scss/header.scss" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/scss/front-page-sliders.scss" />
         <option value="$PROJECT_DIR$/page-badania.php" />
         <option value="$PROJECT_DIR$/page-szkolenia.php" />
         <option value="$PROJECT_DIR$/page-o-nas.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/scss/footer.scss" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/scss/about-slider.scss" />
         <option value="$PROJECT_DIR$/page-zaufali-nam.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/page-wiedza.php" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
-        <option value="$PROJECT_DIR$/page-rozwiazania.php" />
         <option value="$PROJECT_DIR$/page-polityka-prywatnosci.php" />
+        <option value="$PROJECT_DIR$/page-ksiazki.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/page-gry-biznesowe.php" />
-        <option value="$PROJECT_DIR$/page-privacy-policy.php" />
-        <option value="$PROJECT_DIR$/scss/tiles.scss" />
+        <option value="$PROJECT_DIR$/scss/about-slider.scss" />
+        <option value="$PROJECT_DIR$/scss/front-page-sliders.scss" />
         <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/scss/front-page.scss" />
-        <option value="$PROJECT_DIR$/page-ksiazki.php" />
+        <option value="$PROJECT_DIR$/page-privacy-policy.php" />
+        <option value="$PROJECT_DIR$/page-rozwiazania.php" />
+        <option value="$PROJECT_DIR$/scss/tiles.scss" />
       </list>
     </option>
   </component>
@@ -334,19 +334,20 @@
       <updated>1528019659488</updated>
       <workItem from="1528019660838" duration="132252000" />
       <workItem from="1555749387306" duration="18481000" />
-      <workItem from="1556733780369" duration="22748000" />
+      <workItem from="1556733780369" duration="23039000" />
+      <workItem from="1559669131014" duration="9216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173481000" />
+    <option name="totallyTimeSpent" value="182988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="832" y="382" width="1855" height="979" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24472117" sideWeight="0.50425273" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25538972" sideWeight="0.49574727" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25815368" sideWeight="0.49574727" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -354,7 +355,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21734588" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21713614" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -402,7 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -426,7 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1992">
           <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -434,7 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3576">
           <caret line="149" column="15" lean-forward="false" selection-start-line="149" selection-start-column="15" selection-end-line="150" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -442,7 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="583" lean-forward="true" selection-start-line="14" selection-start-column="583" selection-end-line="14" selection-end-column="583" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -450,7 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -458,7 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -498,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -506,7 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1992">
           <caret line="83" column="15" lean-forward="false" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,7 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,9 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
-          <folding>
-            <marker date="1530039619265" expanded="true" signature="472:490" ph="Insert into client... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,7 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3456">
           <caret line="149" column="15" lean-forward="false" selection-start-line="149" selection-start-column="15" selection-end-line="150" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,15 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="583" lean-forward="false" selection-start-line="14" selection-start-column="583" selection-end-line="14" selection-end-column="583" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="74" column="18" lean-forward="false" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1328">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="888">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="43" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,19 +627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-wiedza.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="116" column="3" lean-forward="false" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
           <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,102 +652,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="7" column="138" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-rozwiazania.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-gry-biznesowe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="29" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-privacy-policy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/about-slider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-896">
-          <caret line="96" column="10" lean-forward="false" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/tiles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/front-page-sliders.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6768">
-          <caret line="282" column="0" lean-forward="true" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="32" column="82" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/front-page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page-ksiazki.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="272">
           <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="74" column="18" lean-forward="false" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-gry-biznesowe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/about-slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/front-page-sliders.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="129" column="5" lean-forward="false" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" column="168" lean-forward="false" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="168" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="10" column="108" lean-forward="false" selection-start-line="10" selection-start-column="108" selection-end-line="10" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-wiedza.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/front-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-privacy-policy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-rozwiazania.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/tiles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="142" column="4" lean-forward="true" selection-start-line="142" selection-start-column="4" selection-end-line="142" selection-end-column="4" />
           <folding />
         </state>
       </provider>

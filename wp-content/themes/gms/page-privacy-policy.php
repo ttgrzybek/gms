@@ -18,7 +18,7 @@
 
                         <?php if ($q2->have_posts() ) : while ( $q2->have_posts() ) :    $q2->the_post(); ?>
 
-                                <?php the_content('<p>', '</p>');?>
+                                <?php the_content();?>
                             <?php wp_reset_postdata(); ?>
                         <?php endwhile; ?>
                         <?php else: ?>

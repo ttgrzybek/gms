@@ -2,7 +2,7 @@
     <div class="container footer">
 
         <nav class="footer">
-            <div class="footer"">   <img class="logo toHide" alt="Logo" height="40px" src="/gms/wp-content/themes/gms/images/3.png"></div>
+<!--            <div class="footer"">   <img class="logo toHide" alt="Logo" height="40px" src="/gms/wp-content/themes/gms/images/3.png"></div>-->
     <div class="toShow float-left"><p>GM Solutions</p></div>
             <div class="footer-info">
                 <div id="phnr">

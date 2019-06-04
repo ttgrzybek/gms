@@ -8,13 +8,13 @@
         <div class="col--big toHide">
             <div class="row left slider1">
                 <div class="col slider--text--fp">
-                    <a class="clicker" href="<?php echo site_url( '/?p=103/' ); ?>"></a>
+                    <a class="clicker top" href="<?php echo site_url( '/?p=103/' ); ?>">Programy dla liderów</a>
                 </div>
                 <div class="col slider--text--fp">
-                    <a class="clicker" href="<?php echo site_url( '/?p=103/' ); ?>"></a>
+                    <a class="clicker mid" href="<?php echo site_url( '/?p=103/' ); ?>">Akademie sprzedaży</a>
                 </div>
                 <div class="col slider--text--fp">
-                    <a class="clicker" href="<?php echo site_url( '/?p=103/' ); ?>"></a>
+                    <a class="clicker bottom" href="<?php echo site_url( '/?p=103/' ); ?>">Wdrożenia standardów</a>
                 </div>
             </div>
         </div>

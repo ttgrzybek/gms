@@ -15,9 +15,7 @@
                     <?php if ($q2->have_posts() ) : while ( $q2->have_posts() ) :    $q2->the_post(); ?>
                         <div class="slider3--text">
                             <?php the_title('<h3>', '</h3>');?>
-                            <div class="inline--block">
-                                <?php the_post_thumbnail('medium', ['class' => 'img-fluid']); ?>
-                            </div>
+
                             <?php the_content('<p>', '</p>');?>
 
                         </div>
