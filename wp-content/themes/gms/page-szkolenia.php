@@ -16,7 +16,7 @@
 
                 <?php the_title('<h3 class="coaching">', '</h3>');?>
 
-                <?php the_content('<h3 class="coaching">', '</h3>');?>
+                <?php the_content();?>
                 <?php wp_reset_postdata(); ?>
             </div>
         </div>
