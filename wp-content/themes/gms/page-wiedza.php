@@ -17,7 +17,7 @@
                         <div class="post">
                             <?php the_title('<h3>', '</h3>');?>
                             <?php the_content('<p>', '</p>');?>
-                            <a href="<?php the_permalink(); ?>">Czytaj więcej...</a>
+                           <!-- <a href="<?php /*the_permalink(); */?>">Czytaj więcej...</a>-->
 
                         </div>
                         <?php wp_reset_postdata(); ?>

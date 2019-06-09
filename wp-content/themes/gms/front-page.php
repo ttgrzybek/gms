@@ -8,20 +8,20 @@
         <div class="col--big toHide">
             <div class="row left slider1">
                 <div class="col slider--text--fp">
-                    <a class="clicker top" href="<?php echo site_url( '/?p=103/' ); ?>">Programy dla liderów</a>
+                    <a class="clicker top" href="<?php echo site_url( '/?p=112/' ); ?>">Programy dla liderów</a>
                 </div>
                 <div class="col slider--text--fp">
-                    <a class="clicker mid" href="<?php echo site_url( '/?p=103/' ); ?>">Akademie sprzedaży</a>
+                    <a class="clicker mid" href="<?php echo site_url( '/?p=112/' ); ?>">Akademie sprzedaży</a>
                 </div>
                 <div class="col slider--text--fp">
-                    <a class="clicker bottom" href="<?php echo site_url( '/?p=103/' ); ?>">Wdrożenia standardów</a>
+                    <a class="clicker bottom" href="<?php echo site_url( '/?p=112/' ); ?>">Wdrożenia standardów</a>
                 </div>
             </div>
         </div>
         <div class="col--big">
             <section class="navigation-tiles">
                 <div class="row">
-                    <a href="<?php echo site_url( '/?p=103/' ); ?>" class="col animated">Rozwiązania</a>
+                    <a href="<?php echo site_url( '/?p=112/' ); ?>" class="col animated">Rozwiązania</a>
                     <a href="<?php echo site_url( '/?p=74/' ); ?>" class="col animated red">Szkolenia</a>
                 </div>
                 <div class="row">

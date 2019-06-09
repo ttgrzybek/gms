@@ -12,7 +12,7 @@
 
     <?php if ($q2->have_posts() ) : while ( $q2->have_posts() ) :    $q2->the_post(); ?>
         <div class="row row--one--column">
-            <div class="col col--workshop post--content">
+            <div class="col col--texttop post--content">
 
                 <?php the_title('<h3 class="coaching">', '</h3>');?>
 

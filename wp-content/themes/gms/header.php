@@ -30,7 +30,7 @@
                             <input type="checkbox" id="drop-2"/>
                             <ul>
                                 <li>
-                                    <a href="<?php echo site_url( '/?p=103/' ); ?>"class="short">Rozwiązania</a>
+                                    <a href="<?php echo site_url( '/?p=112/' ); ?>"class="short">Rozwiązania</a>
                                 </li>
 <!--                                <li><a href="#"class="short toShow">Rozwiązania</a></li>-->
                                 <li><a href="<?php echo site_url( '/?p=74/' ); ?>"class="short">Szkolenia</a></li>
@@ -41,7 +41,7 @@
                         </li>
                         <li>
                             <!-- First Tier Drop Down -->
-                            <a href="<?php echo site_url( '/?p=113/' ); ?>">Wiedza</a>
+                            <a href="<?php echo site_url( '/?p=135/' ); ?>">Wiedza</a>
                         </li>
 
                         <li><a href="<?php echo site_url( '/?p=44/' ); ?>">Książki</a></li>
