@@ -8,7 +8,8 @@
                 <?php
                 $q3 = new WP_Query([
 
-                    'post_type' => 'client',
+                    'post_type' => 'post',
+                    'category_name' => 'client',
                     'posts_per_page' => '100',
                     'orderby' => 'title',
                     'order' => 'ASC',
@@ -21,12 +22,12 @@
                     ] */
                 ]);
                 ?>
-                <ul class="text--columns"><h2>Zaufali nam</h2>
+                <div class="text--columns"><h2>Zaufali nam</h2>
 
                     <?php if ($q3->have_posts()) : while ($q3->have_posts()) : $q3->the_post(); ?>
                         <!-- post -->
 
-                                <?php the_title('<li>', '</li>'); ?>
+                                <?php the_title('<div class="client">', '</div>'); ?>
 
                         <?php wp_reset_postdata(); ?> <!-- to się zabezpiecza przed spierdoleniem, trzeba przy wszystkich własnych pętlach to robić na koniec
 
@@ -36,7 +37,7 @@
                     <?php else: ?>
                         <!-- no posts found -->
                     <?php endif; ?>
-                </ul>
+                </div>
             </div>
 
     </div>

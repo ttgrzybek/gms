@@ -90,7 +90,23 @@ ul.text--columns {
   }
 }
 
+div.client {
+  width: 300px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
 @media all and (max-width : 768px) {
+
+  div.client {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
 
   .last--content {
     padding-bottom: 0px;
