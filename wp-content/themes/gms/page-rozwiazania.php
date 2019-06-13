@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="background--image"></div>
-<div class="container first--content last--content">
+<div class="container first--content--sites last--content">
 
                 <?php
                 $q2 = new WP_Query([

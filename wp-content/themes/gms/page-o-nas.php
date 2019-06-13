@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="background--image"></div>
-<div class="container container--about first--content">
+<div class="container container--x container--about first--content">
 
         <?php
 

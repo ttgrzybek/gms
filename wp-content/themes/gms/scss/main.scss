@@ -15,6 +15,10 @@
   padding-top: 60px;
 }
 
+.first--content--sites {
+  padding-top: 90px;
+}
+
 .last--content {
   padding-bottom: 90px;
 }
@@ -93,6 +97,13 @@ ul.text--columns {
     margin-bottom: 90px;
   }
 
+  .container {
+    padding-left: 5px;
+  }
+
+  .container--x {
+    padding-left: 15px;
+  }
 
   .first--content--op {
     margin: 0;
@@ -108,8 +119,8 @@ ul.text--columns {
     width: 100vw;
   }
 
-  .first--content {
- //   padding-top: 30px;
+  .first--content--sites {
+    padding-top: 30px;
   }
 
   h1, h2, h3 {
@@ -129,5 +140,7 @@ div.post {
   }
 
 }
+
+
 
 
